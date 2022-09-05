@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'favorite',
@@ -6,11 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./favorite.component.scss']
 })
 export class FavoriteComponent implements OnInit {
-  isFavorite: boolean =  true;
 
 
-  toggleFavorite(event: MouseEvent){
-    this.isFavorite = this.isFavorite ? false : true;
+  @Input() isFavorite: boolean = false;
+  @Output() change = new EventEmitter();
+
+  toggleFavorite(){
+    this.isFavorite = !this.isFavorite; 
+    this.change.emit();
   }
   constructor() { }
 

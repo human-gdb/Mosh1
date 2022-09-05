@@ -1,0 +1,31 @@
+table {
+    background-color:rgba(43, 43, 43, 1);
+    width: flex;  
+  }
+
+  th {
+    color:#f7eeee;
+    background-color: #707070;
+    
+  }
+
+  td {
+    color:#f7eeee;
+  }
+
+  table tr:nth-child(odd) {
+    background-color: #555555;
+   
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #707070;
+  }
+
+  .mat-cell{
+    padding-left: 2em;
+  }
+
+  .mat-header-cell{
+    padding-left: 2em;
+  }

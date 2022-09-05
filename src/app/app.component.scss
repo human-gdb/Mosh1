@@ -1,9 +1,7 @@
-div {
-  background-color: #121212;
-  height: 100%;
+#appBackground {
+  
+  height: max-content;
   width: 100%;
+  z-index: -1;
 }
 
-div > *{
-  margin: 1em;
-}

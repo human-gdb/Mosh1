@@ -6,12 +6,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppMaterialModule } from './MaterialModules';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { DataTableComponent } from './data-table/data-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FavoriteComponent,
-    NavbarComponent
+    NavbarComponent,
+    DataTableComponent
   ],
   imports: [
     BrowserModule,

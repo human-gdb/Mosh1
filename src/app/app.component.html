@@ -1,4 +1,6 @@
-<navbar></navbar>
-<div>
-  <favorite></favorite>
+
+<div id="appBackground" fxFlexFill>
+  <navbar></navbar>
+  <favorite [isFavorite]="post.isFavorite" (change)="onFavoriteChange($event)"></favorite>
+  <app-data-table></app-data-table>
 </div>
