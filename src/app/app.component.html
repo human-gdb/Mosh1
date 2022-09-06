@@ -3,6 +3,6 @@
   <navbar></navbar>
   <section>
     <app-data-table></app-data-table>
-    <app-like></app-like>
+    <like [isLiked]="tweet.liked" [likeCount]="tweet.count"></like>
   </section>
 </div>

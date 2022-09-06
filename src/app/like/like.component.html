@@ -1,4 +1,13 @@
-
+<ng-container >
+    <button mat-icon-button
+    [style.color]="isLiked ? 'red' : 'white'"
+    (click)="toggleLike($event)"
+    > <mat-icon>favorite</mat-icon>
+    </button>
+    <h4
+    style="font-size: 15px; color:white; display: inline; position: relative; top: .1em;" 
+    >{{likeCount}}</h4>
+  </ng-container>
 
 
 

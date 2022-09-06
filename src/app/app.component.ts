@@ -11,7 +11,11 @@ export class AppComponent implements AfterViewInit{
     title: "Title",
     isFavorite: true
   };
-
+  tweet = {
+    count: 10,
+    liked: false,
+    title: 'Hello from like'
+  }
   constructor(private elementRef: ElementRef){}
   ngAfterViewInit(){
     this.elementRef.nativeElement.ownerDocument
