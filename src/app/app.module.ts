@@ -7,13 +7,15 @@ import { AppMaterialModule } from './MaterialModules';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DataTableComponent } from './data-table/data-table.component';
+import { LikeComponent } from './like/like.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FavoriteComponent,
     NavbarComponent,
-    DataTableComponent
+    DataTableComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
