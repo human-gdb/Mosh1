@@ -8,15 +8,17 @@ import { FavoriteComponent } from './favorite/favorite.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DataTableComponent } from './data-table/data-table.component';
 import { LikeComponent } from './like/like.component';
+import { InputFormatDirective } from './custom-directives/input-format.directive';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     FavoriteComponent,
     NavbarComponent,
     DataTableComponent,
-    LikeComponent
-  ],
+    LikeComponent,
+      InputFormatDirective
+   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
