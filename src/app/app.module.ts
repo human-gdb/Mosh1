@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { DataTableComponent } from './data-table/data-table.component';
 import { LikeComponent } from './like/like.component';
 import { InputFormatDirective } from './custom-directives/input-format.directive';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [	
@@ -17,12 +18,13 @@ import { InputFormatDirective } from './custom-directives/input-format.directive
     NavbarComponent,
     DataTableComponent,
     LikeComponent,
-      InputFormatDirective
+    InputFormatDirective
    ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppMaterialModule
+    AppMaterialModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

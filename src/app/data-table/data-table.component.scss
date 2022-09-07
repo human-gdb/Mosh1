@@ -1,7 +1,5 @@
 table {
-    background-color:rgba(43, 43, 43, 1);
-    width: flex;
-    display: inline-block;  
+    background-color:rgba(43, 43, 43, 1); 
   }
 
   th {
@@ -15,17 +13,14 @@ table {
   }
 
   table tr:nth-child(odd) {
-    background-color: #555555;
-   
+    background-color: #555555;        
   }
   
   table tr:nth-child(even) {
     background-color: #707070;
   }
 
-  .mat-cell{
-    padding-left: 2em;
-  }
+
 
   .mat-header-cell{
     padding-left: 2em;

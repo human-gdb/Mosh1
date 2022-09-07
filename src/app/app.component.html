@@ -1,8 +1,13 @@
-
-<div id="appBackground">
+<div id="appBackground" >
   <navbar></navbar>
-  <section>
-    <app-data-table></app-data-table>
+
+  <div id="appContainer" style="margin-top: 50px" fxLayout="column" fxLayoutAlign="space-evenly center" fxLayoutGap="30px">
+    
     <like [isLiked]="tweet.liked" [likeCount]="tweet.count"></like>
-  </section>
+  
+    <app-data-table style="margin-top: 50px" fxFlexAlign="middle"></app-data-table>
+   
+
+  </div>
 </div>
+
