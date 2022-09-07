@@ -10,7 +10,6 @@ import { DataTableComponent } from './data-table/data-table.component';
 import { LikeComponent } from './like/like.component';
 import { InputFormatDirective } from './custom-directives/input-format.directive';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { PasswordResetComponent } from './forms/password-reset/password-reset.component';
 
 @NgModule({
   declarations: [	
@@ -19,8 +18,7 @@ import { PasswordResetComponent } from './forms/password-reset/password-reset.co
     NavbarComponent,
     DataTableComponent,
     LikeComponent,
-    InputFormatDirective,
-    PasswordResetComponent
+    InputFormatDirective
    ],
   imports: [
     BrowserModule,

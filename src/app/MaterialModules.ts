@@ -20,7 +20,6 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
         MatInputModule,
         MatFormFieldModule,
         MatSlideToggleModule,
-        
     ]
   })
   export class AppMaterialModule { }
